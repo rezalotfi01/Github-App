@@ -48,6 +48,7 @@ object BuildDependencies {
 }
 
 object PluginIds{
+
     const val application = "com.android.application"
     const val androidLibrary = "com.android.library"
     const val gradlePlugin = "com.reza.android.plugin"
