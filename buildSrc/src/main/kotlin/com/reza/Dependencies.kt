@@ -24,7 +24,7 @@ object Versions {
     const val mockito = "3.12.3"
     const val mockitoKotlin = "1.6.0"
     const val stetho = "1.5.1"
-    const val gradle = "7.0.4"
+    const val gradle = "7.1.1"
     const val kotlin = "1.6.10"
     const val timber = "5.0.1"
     const val dataMapper = "1.4.2.Final"
@@ -48,7 +48,6 @@ object BuildDependencies {
 }
 
 object PluginIds{
-
     const val application = "com.android.application"
     const val androidLibrary = "com.android.library"
     const val gradlePlugin = "com.reza.android.plugin"
