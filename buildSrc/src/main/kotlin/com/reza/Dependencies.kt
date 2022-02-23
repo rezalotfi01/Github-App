@@ -26,7 +26,7 @@ object Versions {
     const val stetho = "1.5.1"
     const val gradle = "7.1.1"
     const val kotlin = "1.6.10"
-    const val timber = "5.0.1"
+    const val timber = "4.7.1"
     const val dataMapper = "1.4.2.Final"
     const val lottie = "4.2.2"
     const val retrofit = "2.9.0"
