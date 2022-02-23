@@ -58,7 +58,6 @@ dependencies {
     implementation(project(ProjectModules.domain))
     implementation(project(ProjectModules.data))
     implementation(project(ProjectModules.remote))
-    implementation(project(ProjectModules.local))
 
     implementation(Dependencies.AndroidX.fragmentKtx)
     kapt(Dependencies.AndroidX.lifecycleCompiler)
