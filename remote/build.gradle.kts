@@ -26,4 +26,12 @@ dependencies {
     implementation(Dependencies.dataMapper)
     kapt(Dependencies.dataMapperCompiler)
     implementation(Dependencies.Koin.koinCore)
+
+    testImplementation(TestDependencies.kotlinxCoroutines)
+    testImplementation(Dependencies.Koin.koinTest)
+    testImplementation(TestDependencies.JUnit.junit)
+    testImplementation(TestDependencies.JUnit.junitPlatformRunner)
+    testImplementation(TestDependencies.Mockito.mockitoCore)
+    testImplementation(TestDependencies.Mockito.mockitoInline)
+    testImplementation(TestDependencies.Mockito.mockitoKotlin)
 }
