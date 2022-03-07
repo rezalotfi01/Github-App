@@ -11,7 +11,7 @@ for this app:
 ## - Screenshots
 
 ![](/screenshots/screen1.png)
-![](/screenshot/screen2.png)
+![](/screenshots/screen2.png)
 
 ### Clean Architecture and Why this approach?
 1. Separation of code in different layers with assigned responsibilities making it easier for further modification.
