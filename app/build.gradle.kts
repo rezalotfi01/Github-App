@@ -21,6 +21,8 @@ android {
         minSdk = AppConfig.minSdk
         targetSdk = AppConfig.targetSdk
 
+        multiDexEnabled = true
+
         testInstrumentationRunner = AppConfig.testInstrumentationRunner
     }
 
@@ -63,6 +65,7 @@ dependencies {
     kapt(Dependencies.AndroidX.lifecycleCompiler)
     implementation(Dependencies.AndroidX.lifecycleRuntimeKtx)
     implementation(Dependencies.AndroidX.lifecycleViewModel)
+    implementation(Dependencies.AndroidX.pagingRuntime)
 
     implementation(Dependencies.kotlinxCoroutines)
     implementation(Dependencies.timber)
@@ -89,11 +92,20 @@ dependencies {
 
     androidTestImplementation(TestDependencies.AndroidX.core)
     androidTestImplementation(TestDependencies.AndroidX.coreKtx)
+    androidTestImplementation(TestDependencies.AndroidX.testing)
     androidTestImplementation(TestDependencies.AndroidX.runner)
     androidTestImplementation(TestDependencies.AndroidX.rules)
     androidTestImplementation(TestDependencies.AndroidX.espressoCore)
     androidTestImplementation(TestDependencies.AndroidX.espressoContrib)
     androidTestImplementation(TestDependencies.AndroidX.junit)
-    androidTestImplementation(TestDependencies.kotlinxCoroutines)
     androidTestImplementation(TestDependencies.mockWebServer)
+
+    testImplementation(TestDependencies.kotlinxCoroutines)
+    testImplementation(Dependencies.Koin.koinTest)
+    testImplementation(TestDependencies.JUnit.junit)
+    testImplementation(TestDependencies.JUnit.junitPlatformRunner)
+    testImplementation(TestDependencies.Mockito.mockitoCore)
+    testImplementation(TestDependencies.Mockito.mockitoInline)
+    testImplementation(TestDependencies.Mockito.mockitoKotlin)
+
 }
