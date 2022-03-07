@@ -4,7 +4,7 @@ data class UserSearchResponse(
     val incomplete_results: Boolean,
     val items: List<ItemResponse>,
     val total_count: Int
-)
+) : BaseRemoteModel()
 
 data class ItemResponse(
     val avatar_url: String,

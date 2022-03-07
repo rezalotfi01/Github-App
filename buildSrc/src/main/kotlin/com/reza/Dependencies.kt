@@ -13,8 +13,8 @@ object Versions {
     const val constraintLayout = "2.1.0"
     const val materialDialog = "3.3.0"
     const val legacySupport = "1.0.0"
-    const val lifecycle = "2.4.0"
-    const val paging = "3.1.0"
+    const val lifecycle = "2.4.1"
+    const val paging = "3.0.1"
     const val koin = "3.1.5"
     const val androidxTest = "1.3.0"
     const val espresso = "3.4.0"
@@ -142,6 +142,8 @@ object TestDependencies {
             "androidx.test:core:${Versions.androidxTest}"
         const val coreKtx =
             "androidx.test:core-ktx:${Versions.androidxTest}"
+        const val testing =
+            "androidx.arch.core:core-testing:2.1.0"
 
         const val runner =
             "androidx.test:runner:${Versions.androidxTest}"

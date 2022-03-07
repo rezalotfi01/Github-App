@@ -1,9 +1,9 @@
 package com.reza.domain.di
 
-import com.reza.domain.usercase.GetUserDetailUseCase
-import com.reza.domain.usercase.GetUserDetailUseCaseImpl
-import com.reza.domain.usercase.SearchUserUseCase
-import com.reza.domain.usercase.SearchUserUseCaseImpl
+import com.reza.domain.usecase.GetUserDetailUseCase
+import com.reza.domain.usecase.GetUserDetailUseCaseImpl
+import com.reza.domain.usecase.SearchUserUseCase
+import com.reza.domain.usecase.SearchUserUseCaseImpl
 import org.koin.dsl.module
 
 
