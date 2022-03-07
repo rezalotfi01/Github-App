@@ -56,14 +56,8 @@ There are some highlights:
 * Mockito has been used for mocking|stubbing.
 * `Given|When|Then` steps have been followed, in order to give a more structured overview.
 
-### UI Testing
-
-I opted for a dynamic test configuration, so it's possible to inject different configurations as peer need.
-* In order to mock the responses and use them for instrumentation testing, I've used MockWebServer.
-
-
 ## Tech Stack
-* [Kotlin Coroutines and Flows][0] Library support for Kotlin coroutines and asynchronous data streams.
+* [Kotlin Coroutines][0] Library support for Kotlin coroutines and asynchronous data streams.
 * [Android Jetpack][1] Collection of libraries for designing more robust, testable, and maintainable apps.
 * [Paging3][2] for making it easier to load data gradually within the app. it's also synchronized with kotlin flows.
 * [Kotlin Flow][4] for reactive style programming.
