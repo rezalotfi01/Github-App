@@ -1,4 +1,4 @@
-package com.reza.domain.usercase
+package com.reza.domain.usecase
 
 import com.reza.domain.Repository
 import com.reza.domain.model.UserSearchDomainModel
