@@ -9,15 +9,14 @@ import retrofit2.http.Query
 
 interface ApiService {
     @GET("/search/users")
-    fun searchUser(
+    suspend fun searchUser(
         @Query("q") query: String,
         @Query("page") page: Int
-    ): Flow<UserSearchResponse>
+    ): UserSearchResponse
 
     @GET("/users/{username}")
-    fun getUserDetails(
+    suspend fun getUserDetails(
         @Path("username") username: String
-    ): Flow<UserDetailsResponse>
-
+    ): UserDetailsResponse
 
 }
