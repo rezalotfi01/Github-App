@@ -10,8 +10,8 @@ for this app:
 
 ## - Screenshots
 
-![](/screenshots/screen1.png)
-![](/screenshots/screen2.png)
+![](/screenshots/screenshot1.png)
+![](/screenshots/screenshot2.png)
 
 ### Git Branching Model
 About the Git branching model, Git Flow approach followed (e.g., Feature|Development|Main and other branches). it makes development process very easier, by isolating new development from finished work.
