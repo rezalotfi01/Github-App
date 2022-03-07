@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Github app</string>
+
+    <string name="list_empty">List is empty \n\nSearch something!</string>
+    <string name="error_happened">Unfortunately error happened :(</string>
+    <string name="search_users">Search users…</string>
+    <string name="followers">Followers</string>
+    <string name="followings">Followings</string>
+    <string name="lines">Lines</string>
+    <string name="no_name">No name</string>
+    <string name="repositories">Repositories</string>
+    <string name="contributions">Contributions:</string>
+    <string name="retry">Retry</string>
+
+    <string name="not_internet">No Internet</string>
+    <string name="check_your_internet">Check your Internet connection and try again.</string>
+    <string name="please_turn_on">Please turn on</string>
+    <string name="please_turn_off">Please turn off</string>
+    <string name="wifi">Wifi</string>
+    <string name="mobile_data">Mobile data</string>
+    <string name="on_airplane_message">You have turned on the airplane mode.</string>
+    <string name="airplane_mode_off">Airplane mode</string>
+
+</resources>
