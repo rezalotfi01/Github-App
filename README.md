@@ -13,6 +13,9 @@ for this app:
 ![](/screenshots/screen1.png)
 ![](/screenshots/screen2.png)
 
+### Git Branching Model
+About the Git branching model, Git Flow approach followed (e.g., Feature|Development|Main and other branches). it makes development process very easier, by isolating new development from finished work.
+
 ### Clean Architecture and Why this approach?
 1. Separation of code in different layers with assigned responsibilities making it easier for further modification.
 2. High level of abstraction
