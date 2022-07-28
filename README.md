@@ -1,6 +1,6 @@
 # Github-App
 
-This is an Android application for exploring Github users detail from API and show it to user with pagination and beautiful animations.
+This is a Sample Android application for exploring Github users detail from API and show it to user with pagination and beautiful animations.
 
 for this app:
 - Modular Clean Architecture and MVVM approach followed
